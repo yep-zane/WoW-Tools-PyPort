@@ -15,3 +15,25 @@ This version uses Python for the front-end to create some nicer looking terminal
 - User account management
 - Database management
 
+## Script Setup
+
+**Your WoW server files has to be on the C: drive.** This is a requirment of the actual server itself, not wowTools. If you really wanted wowTools could be install on any drive you want.
+
+1 - Download the latest version of the installer from the released tab. 
+
+2 - Unzip your download and run install.bat
+
+3 - Enter the directory you want the scripts to be installed to, for example if you wanted it to be in the root of your C: drive you would put C:\
+
+4 - It will ask you to enter a SERVERDIR value. This is the actual folder your WOW server is in. This is the folder that contains the following folders: "Core" "_Server" "Extras".
+   Your directory may be something like C:\WoWServer . **This is case sensitive. If your folder contains spaces please put quotations around the folder to prevent errors**
+
+5 - Next, you will be asked for a DRIVE value. THis is the drive that containes your wow game client. E.G. C:, E:, F: **If you are running a standalone server, you can set it to empty, but function 6 won't work**
+
+6 - The CLIENTDIR value is the actual directory your game is in. E.G. E:\"World of Warcraft WOTLK" or C:\wowgame 
+    **Make sure you put the root directory that is the home of the Wow.exe application**
+
+7 - For CLIENTMOUNTPOINT just enter the same value you did for DRIVE value. This setting is just there for compatibility
+
+🥳 You have successfully setup your version of wowTools!!
+
