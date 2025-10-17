@@ -37,3 +37,42 @@ This version uses Python for the front-end to create some nicer looking terminal
 
 🥳 You have successfully setup your version of wowTools!!
 
+## What does each function do?
+
+**Option 1 - Start Game Server**
+
+Its pretty obvious, but this opens the following applications
+GAMEDIR\_Server\SQL.bat
+GAMEDIR\Core\AuthServer.exe
+GAMEDIR\Core\Worldserver.exe
+
+**Option 2 - Stop Game Server**
+
+Again quite obvious, but this time is closes these applications
+MySQL.bat
+AuthServer.exe
+WorldServer.exe
+
+**Option 3 - Start SQL Database**
+
+This function is intended if you only want to start the database. Possibly for editing or if it just isn't running. This command will run GAMEDIR\_Server\MySQL.bat
+
+**Option 4 - Start Apache Server**
+
+In the ACWEBPACK version of the server there is a optional web interface that can be accessed when you start the apache server. It broadcasts on localhost at a certain port. 
+This command will execute GAMEDIR\_Server\Apache.bat
+
+**Option 5 - Start SQL and Apache**
+
+Just executes both option 4 and option 5 at the same time.
+
+**Option 6 - Open Warcraft Client**
+
+It does what it says on the box, opens your game client. ⚠️ Don't run this command if you do not have the game installed ⚠️
+
+**Option 7 - Release Notes**
+
+This will allow you to read the release notes, just a copy of this github README
+
+**2025 wowTools PyPort - Version 5 // Release 2**
+**Created by Lisoft Software Solutions**
